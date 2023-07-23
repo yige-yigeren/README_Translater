@@ -5,9 +5,9 @@ const commandLineUsage = require('command-line-usage');
 
 // 命令行参数定义
 const optionDefinitions = [
-  { name: 'from'， alias: 'f'， type: String, description: '原始语言' }，
-  { name: 'to'， alias: 't'， type: String, multiple: true， description: '目标语言' }，
-  { name: 'ignore'， alias: 'i'， type: String, multiple: true， description: '要忽略的行' }，
+  { name: 'from', alias: 'f', type: String, description: '原始语言' },
+  { name: 'to', alias: 't', type: String, multiple: true, description: '目标语言' },
+  { name: 'ignore', alias: 'i', type: String, multiple: true, description: '要忽略的行' },
 ];
 
 // 命令行参数使用说明
